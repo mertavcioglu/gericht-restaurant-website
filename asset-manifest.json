@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gericht-restaurant-website/static/css/main.6757cd74.css",
-    "main.js": "/gericht-restaurant-website/static/js/main.38958a2c.js",
+    "main.css": "/gericht-restaurant-website/static/css/main.16247161.css",
+    "main.js": "/gericht-restaurant-website/static/js/main.012d19cb.js",
     "static/media/video.mp4": "/gericht-restaurant-website/static/media/video.a1b6c6dc67dfa2f99343.mp4",
     "static/media/home-image.png": "/gericht-restaurant-website/static/media/home-image.d724eb984456d9c97470.png",
     "static/media/find-us-image.png": "/gericht-restaurant-website/static/media/find-us-image.585c393ccd3671513743.png",
@@ -21,11 +21,11 @@
     "static/media/chef-signature.png": "/gericht-restaurant-website/static/media/chef-signature.9bf0bd90ad4caa17991f.png",
     "index.html": "/gericht-restaurant-website/index.html",
     "static/media/little-spoon.svg": "/gericht-restaurant-website/static/media/little-spoon.d079f43fbcf509908d3865293080795a.svg",
-    "main.6757cd74.css.map": "/gericht-restaurant-website/static/css/main.6757cd74.css.map",
-    "main.38958a2c.js.map": "/gericht-restaurant-website/static/js/main.38958a2c.js.map"
+    "main.16247161.css.map": "/gericht-restaurant-website/static/css/main.16247161.css.map",
+    "main.012d19cb.js.map": "/gericht-restaurant-website/static/js/main.012d19cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.6757cd74.css",
-    "static/js/main.38958a2c.js"
+    "static/css/main.16247161.css",
+    "static/js/main.012d19cb.js"
   ]
 }
