@@ -1,0 +1,43 @@
+.today-menu__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.today-menu__item-top {
+  display: flex;
+  justify-content: space-between;
+  height: 3.5rem;
+}
+
+.today-menu__item-header {
+  color: var(--gold);
+  font-size: 1.45rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.today-menu__item-text {
+  color: #aaaaaa;
+  margin: 0;
+  text-align: left;
+}
+
+.today-menu__item-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  align-self: flex-end;
+}
+
+.today-menu__item-dash {
+  background: var(--gold);
+  height: 1px;
+  width: 90px;
+}
+
+.today-menu__item-price {
+  font-size: 1.5rem;
+  font-weight: 700;
+}

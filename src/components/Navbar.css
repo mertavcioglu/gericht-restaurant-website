@@ -1,0 +1,56 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  margin-top: 1.25%;
+}
+
+.navbar__header {
+  font-family: "Cormorant Upright", serif;
+  font-weight: 600;
+  font-size: 2.85rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-left: -3.5%;
+}
+.navbar__header:hover {
+  color: #aaa;
+}
+
+.navbar__list {
+  display: flex;
+  gap: 2rem;
+  margin-left: -1rem;
+}
+
+.navbar__list-item {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+.navbar__list-item:hover {
+  color: #aaa;
+}
+
+.navbar__user-actions {
+  display: flex;
+  gap: 1rem;
+  margin-right: -3rem;
+}
+
+.navbar__user-actions-action {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.5s ease;
+}
+.navbar__user-actions-action:hover {
+  border-bottom: 1px solid var(--gold);
+}
+
+.navbar__user-actions-seperator {
+  background-color: #aaa;
+  height: 30px;
+  width: 1px;
+}

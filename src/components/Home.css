@@ -1,0 +1,21 @@
+.home-container {
+  display: flex;
+  align-items: center;
+}
+
+.home__left-header {
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 130%;
+  color: var(--gold);
+}
+
+.home__image {
+  width: 42rem;
+  margin-right: 5.35rem;
+}
+
+.home__left-lower-text {
+  width: 82%;
+  margin-top: 2rem;
+}

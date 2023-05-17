@@ -1,0 +1,52 @@
+.chef-container {
+  display: flex;
+}
+
+.chef__image {
+  margin-left: 2rem;
+  width: 41.25rem;
+}
+
+.chef__content {
+  margin-left: 12.25rem;
+  margin-top: 5.5rem;
+}
+
+.chef__header {
+  font-size: 4rem;
+  color: var(--gold);
+  margin: 1rem 0;
+  margin-bottom: 4.25rem;
+}
+
+.chef__text-upper {
+  display: flex;
+  margin-top: 6rem;
+}
+
+.chef__quotation {
+  width: 3rem;
+  height: 2.5rem;
+  margin-right: 1rem;
+}
+
+.chef__lower-text {
+  margin-top: -1rem;
+}
+
+.chef__chefs-name {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 3.7rem;
+  color: var(--gold);
+  margin-bottom: 0;
+}
+
+.chef__chefs-title {
+  margin-top: 0.65rem;
+}
+
+.chef__signature {
+  width: 23.25rem;
+  margin-top: 2rem;
+}

@@ -1,0 +1,29 @@
+.find-us-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.find-us__header {
+  font-size: 4rem;
+  color: var(--gold);
+  margin: 1rem 0 3rem 0;
+}
+
+.find-us__small-header {
+  color: var(--gold);
+  margin: 2rem 0;
+}
+
+.find-us__text {
+  margin: 0;
+}
+
+.find-us__button {
+  margin-top: 2rem;
+}
+
+.find-us__image {
+  width: 42rem;
+  margin-right: 5.3rem;
+}

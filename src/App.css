@@ -1,38 +1,75 @@
+* {
+  font-family: "Cormorant Upright", serif;
+  font-style: normal;
+  letter-spacing: 0.04em;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  scroll-behavior: smooth;
+  --gold: #dcca87;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p,
+li,
+a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 175%;
+}
+
+h1 {
+  margin: 1rem 0;
+}
+
+h2 {
+  font-size: 1.45rem;
+  line-height: 130%;
+  margin: 0;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background: #0c0b08;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.main-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 9.8rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.little-spoon {
+  width: 2.85rem;
+}
+
+.general-button {
+  padding: 0.5rem 1.5rem;
+  background-color: #f5efdb;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 175%;
+  margin-top: 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 1px;
+}
+.general-button:hover {
+  background-color: #dfd9c7;
+}
+
+.home-video {
+  width: 111%;
+  margin-left: -5.5%;
+  opacity: 0.75;
+  margin-top: -5rem;
 }

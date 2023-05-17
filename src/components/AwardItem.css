@@ -1,0 +1,15 @@
+.award-item-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 1.1rem;
+}
+
+.award-item__image {
+  width: 3.1rem;
+  height: 3.1rem;
+}
+
+.award-item__header {
+  color: var(--gold);
+}

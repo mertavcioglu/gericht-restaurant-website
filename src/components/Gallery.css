@@ -1,0 +1,14 @@
+.gallery-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.gallery__header {
+  font-size: 4rem;
+  color: var(--gold);
+  margin: 1rem 0;
+}
+
+.gallery__text {
+  color: #aaaaaa;
+}

@@ -1,0 +1,27 @@
+.awards-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -6rem;
+}
+
+.awards__left {
+  margin-top: 8.5rem;
+}
+
+.awards__header {
+  font-size: 4rem;
+  color: var(--gold);
+  margin: 1rem 0;
+  margin-bottom: 4.25rem;
+}
+
+.awards__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.awards__image {
+  width: 42rem;
+  margin-right: 5.3rem;
+}

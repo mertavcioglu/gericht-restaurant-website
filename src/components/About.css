@@ -1,0 +1,41 @@
+.about-container {
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.about__knife-img {
+  width: 8.3rem;
+  margin: 0 4rem;
+}
+
+.about__g-letter {
+  position: absolute;
+  left: 39.75%;
+  top: 157%;
+  width: 24.5rem;
+  z-index: -1;
+}
+
+.about__left {
+  text-align: right;
+}
+
+.about__header {
+  font-size: 4rem;
+  color: var(--gold);
+  margin: 0;
+}
+
+.about__text {
+  color: #aaaaaa;
+  margin: 3.25rem 0;
+}
+
+.about__text-left {
+  margin-left: 1%;
+}
+
+.about__text-right {
+  width: 99%;
+}
