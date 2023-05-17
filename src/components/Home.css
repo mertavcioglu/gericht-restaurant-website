@@ -1,6 +1,7 @@
 .home-container {
   display: flex;
   align-items: center;
+  margin-top: -2.25rem;
 }
 
 .home__left-header {

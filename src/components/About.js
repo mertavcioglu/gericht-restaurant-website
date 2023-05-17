@@ -6,7 +6,6 @@ import gLetter from "../images/g-letter.png";
 function About() {
   return (
     <div className="about-container" id="about">
-      {" "}
       <img src={gLetter} alt="g-letter" className="about__g-letter" />
       <div className="about__left">
         <h1 className="about__header">About Us</h1>

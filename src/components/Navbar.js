@@ -5,9 +5,7 @@ import { Link } from "react-scroll";
 function Navbar() {
   return (
     <div className="navbar-container">
-      <Link className="navbar__header" smooth spy to="home">
-        Gerícht
-      </Link>
+      <Link className="navbar__header">Gerícht</Link>
       <div className="navbar__list">
         <Link className="navbar__list-item" smooth spy to="home">
           Home
@@ -18,10 +16,10 @@ function Navbar() {
         <Link className="navbar__list-item" smooth spy to="menu">
           Menu
         </Link>
-        <Link className="navbar__list-item" smooth spy to="menu">
+        <Link className="navbar__list-item" smooth spy to="awards">
           Awards
         </Link>
-        <Link className="navbar__list-item" smooth spy to="menu">
+        <Link className="navbar__list-item" smooth spy to="contact">
           Contact
         </Link>
       </div>

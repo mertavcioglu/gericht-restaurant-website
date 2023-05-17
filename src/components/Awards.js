@@ -10,7 +10,7 @@ import award03 from "../images/award03.png";
 
 function Awards() {
   return (
-    <div className="awards-container">
+    <div className="awards-container" id="awards">
       <div className="awards__left">
         <h2>Awards & Recongnition</h2>
         <img src={littleSpoon} alt="little-spoon" className="little-spoon" />

@@ -5,7 +5,7 @@ import findUsImage from "../images/find-us-image.png";
 
 function FindUs() {
   return (
-    <div className="find-us-container">
+    <div className="find-us-container" id="contact">
       <div className="find-us__left">
         <h2>Contact</h2>
         <img src={littleSpoon} alt="little-spoon" className="little-spoon" />
