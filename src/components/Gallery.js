@@ -19,7 +19,28 @@ function Gallery() {
         </p>
         <button className="general-button">View More</button>
       </div>
-      <div className="gallery__right">fotolar</div>
+      <div className="gallery__right">
+        <div className="gallery__item">
+          <img src={photo01} alt="gallery-img" className="gallery__photo" />
+          <i className="fa-brands fa-instagram fa-2xl instagram-logo"></i>
+        </div>
+        <div className="gallery__item">
+          <img src={photo02} alt="gallery-img" className="gallery__photo" />
+          <i className="fa-brands fa-instagram fa-2xl instagram-logo"></i>
+        </div>
+        <div className="gallery__item">
+          <img src={photo03} alt="gallery-img" className="gallery__photo" />
+          <i className="fa-brands fa-instagram fa-2xl instagram-logo"></i>
+        </div>
+        <div className="gallery__item">
+          <img
+            src={photo04}
+            alt="gallery-img"
+            className="gallery__photo gallery__last-photo"
+          />
+          <i className="fa-brands fa-instagram fa-2xl instagram-logo"></i>
+        </div>
+      </div>
     </div>
   );
 }

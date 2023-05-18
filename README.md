@@ -2,5 +2,4 @@
 
 # TODO
 
-Photo Gallery photos, slider.
 Responsive

@@ -1,6 +1,13 @@
 .gallery-container {
   display: flex;
   gap: 2rem;
+  width: 111%;
+  margin-left: -5.5%;
+}
+
+.gallery__left {
+  width: 40rem;
+  margin-left: 5.5%;
 }
 
 .gallery__header {
@@ -11,4 +18,41 @@
 
 .gallery__text {
   color: #aaaaaa;
+}
+
+.gallery__right {
+  display: flex;
+  gap: 2rem;
+  margin-left: 10rem;
+  overflow: hidden;
+}
+
+.gallery__item {
+  position: relative;
+}
+
+.gallery__photo {
+  position: relative;
+  width: 20rem;
+  height: 25rem;
+  transition: 1s ease opacity;
+  cursor: pointer;
+}
+.gallery__item:hover {
+  opacity: 0.75;
+}
+
+.gallery__item:hover .instagram-logo {
+  opacity: 1;
+  transform: translate(-50%, -50%);
+}
+
+.instagram-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
 }
